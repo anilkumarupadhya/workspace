@@ -1,0 +1,12 @@
+
+password="abcd"
+guess=""
+import random
+lst=['a','b','c','d','e','f']
+while(guess !=password):
+	guess=''
+	for i in len(password):
+		word=random.choice(lst)
+		guess=guess+word
+		
+	print("your password is ",guess)
